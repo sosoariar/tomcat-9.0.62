@@ -1,0 +1,108 @@
+# -----------------------------------------------------------------------------
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# -----------------------------------------------------------------------------
+logs
+nbproject
+output
+# Next line commented out, because test/webapp-virtual-library and
+# test/webapp-virtual-webapp use it:
+# target
+work
+build.properties
+mvn.properties
+.ant-targets-build.xml
+.checkstyle
+.classpath
+.externalToolBuilders
+.fbprefs
+.project
+.settings
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+*.asc
+*.jj
+*.tmp
+maven-resolver-ant-tasks-*.jar
+thumbs.db
+Thumbs.db
+bin/setenv.*
+java/org/apache/catalina/startup/catalina.properties
+modules/jdbc-pool/bin
+modules/jdbc-pool/includes
+webapps/docs/jdbc-pool.xml
+
+# Built application files and Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Compiled class files
+*.class
+
+# Log Files
+*.log
+
+# About IntelliJ
+*.iml
+/.idea/
+/out/
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# macOS
+.DS_Store
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# CMake
+cmake-build-debug/
+
+# File-based project format
+*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
